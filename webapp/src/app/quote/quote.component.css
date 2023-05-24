@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css?family=EB+Garamond|Droid+Serif|Playfair+Display|Open+Sans+Condensed:300);
+
+html, body {
+    font-family: 'EB Garamond';
+    font-size: 100;
+    line-height: 40.4rem;
+    padding: .5rem;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: auto;
+     -webkit-font-smoothing: antialiased;
+             font-smoothing: antialiased;
+    font-kerning: normal;
+    color: #1A222F;
+    background: #F4FFF3;
+}
+
+p {
+    line-height: 1.4em;
+}
+
+.quote {
+    position: relative;
+    letter-spacing: .03em;
+    margin-bottom: .5rem;
+
+    &:before {
+        content: "“";
+        position: absolute;
+        left: -.7em;
+    }
+
+    &:after {
+        content: "”";
+        margin-right: -1rem;
+    }
+}
+
+.quote--container {
+    margin: 4.5rem auto 0;
+    width: 60%;
+    border-bottom: 2px dotted #C6D1BF;
+    padding-bottom: .5rem;
+}
+
+.quote--highlight {
+    color: #D24335;
+}
+
+.quote--author {
+    font-family: 'Open Sans Condensed';
+    font-size: 2.8rem;
+    text-align: right;
+    font-weight: 300;
+}
+
+.quote {
+    font-size: 3rem;
+}
+
+.fab {
+    height: 56px;
+    width: 56px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 56px;
+    right: 56px;
+}
